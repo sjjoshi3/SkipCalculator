@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: #D9AFD9; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    margin: 10rem 10rem 2rem 10rem;
+    text-align: center;
+}
+
+
+#parent{
+    display: grid;
+    text-align: center;
+    
+    
+}
+
+#gsm button, #weight button, #container button{
+    width: 15rem;
+    height: 5rem;
+    border-radius: 10%;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+   
+}
+
+
+#gsm , #weight , #container {
+    margin: .3rem .3rem;
+    
+   
+}
+#gsm button a , #weight button a , #container button a {
+    text-decoration: none;
+    font-size:1.2rem;
+    color: black;
+
+}
+
+#gsm button:hover, #weight button:hover, #container button:hover{
+   
+    
+    color:  black;
+    background-color: #D9AFD9 ;
+}
